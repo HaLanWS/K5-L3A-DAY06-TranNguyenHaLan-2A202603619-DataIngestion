@@ -1,0 +1,37 @@
+{
+  "corpus_title": "Quy chế đào tạo Đại học Bách khoa Hà Nội (2023 & 2025)",
+  "documents": [
+    {
+      "source_id": "QCDT_2023",
+      "title": "Quy chế đào tạo kèm Quyết định 4600/QĐ-ĐHBK ngày 09/06/2023",
+      "source_path": "data/QCDT-2023-upload.pdf",
+      "publisher": "Đại học Bách khoa Hà Nội",
+      "license_or_permission": "Văn bản công khai nội bộ phục vụ đào tạo và học tập sinh viên ĐHBK Hà Nội",
+      "year": 2023,
+      "total_physical_pages": 32,
+      "content_pages_range": [
+        4,
+        32
+      ],
+      "content_page_count": 29,
+      "characters": 70522
+    },
+    {
+      "source_id": "QCDT_2025",
+      "title": "Quy chế đào tạo kèm Quyết định 5445/QĐ-ĐHBK năm 2025",
+      "source_path": "data/QCDT_2025_5445_QD-DHBK.pdf",
+      "publisher": "Đại học Bách khoa Hà Nội",
+      "license_or_permission": "Văn bản công khai nội bộ phục vụ đào tạo và học tập sinh viên ĐHBK Hà Nội",
+      "year": 2025,
+      "total_physical_pages": 34,
+      "content_pages_range": [
+        5,
+        34
+      ],
+      "content_page_count": 30,
+      "characters": 70267
+    }
+  ],
+  "total_content_pages": 59,
+  "total_characters": 140789
+}

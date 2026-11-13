@@ -1,4 +1,4 @@
 strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
-A,,,,,,,,,,,,
-B,,,,,,,,,,,,
-C,,,,,,,,,,,,
+A,fixed,500,50,"doc_id,source,page,year",none,all-MiniLM-L6-v2,Baseline chunking co dinh de bi cat nut y va de sai lech ngu canh,1/15 (6.7%),1/15 (6.7%),0/5 (0.0%),0/5 (0.0%),Nhieu evidence bi chia cat qua 2 chunk gay miss hit
+B,structure_article,bounded_1000,0,"doc_id,source,page,year,section",none,all-MiniLM-L6-v2,Chunking theo dieu khoan giu tron ven menh de va tang manh do mach lac,3/15 (20.0%),5/15 (33.3%),1/5 (20.0%),2/5 (40.0%),Cai thien vuot troi ve coherence va retrieval accuracy
+C,structure_article,bounded_1000,0,"doc_id,source,page,year,section",year_filter,all-MiniLM-L6-v2,Metadata filtering giup phan biet chinh xac phien ban van ban 2023 vs 2025,3/15 (20.0%),5/15 (33.3%),1/5 (20.0%),3/5 (60.0%),Test Hit@3 dat 60% nho loc bo nham lan giua 2 quy che nam

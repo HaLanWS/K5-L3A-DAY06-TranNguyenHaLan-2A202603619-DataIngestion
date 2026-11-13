@@ -1,0 +1,2553 @@
+{
+  "metadata": {
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "dimensions": 384,
+    "vector_store": "ChromaDB 1.5.9",
+    "metric": "cosine",
+    "chunk_counts": {
+      "A": 331,
+      "B": 178,
+      "C": 178
+    },
+    "ingest_time_seconds": {
+      "A": 28.39,
+      "B": 3.66,
+      "C": 3.66
+    },
+    "cost_usd": 0.0
+  },
+  "results_A": [
+    {
+      "question_id": "DEV_01",
+      "split": "dev",
+      "strategy": "Strategy_A_Fixed",
+      "question": "Theo quy định, một năm học tại ĐHBK Hà Nội bao gồm những học kỳ nào?",
+      "gold_source": "QCDT_2023",
+      "gold_page": 6,
+      "has_filter": false,
+      "filter_used": null,
+      "filter_compliant": null,
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "top3": [
+        {
+          "rank": 1,
+          "chunk_id": "A_QCDT_2025_p11_208",
+          "document_id": "QCDT_2025",
+          "page": 11,
+          "is_hit": false,
+          "score": 0.7561,
+          "text_snippet": "oảng thời gian 7 tuần đầu của học kỳ, nếu được giải quyết theo nguyện vọng thì phải đóng một nửa (50%) học phí của học k"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "A_QCDT_2025_p20_256",
+          "document_id": "QCDT_2025",
+          "page": 20,
+          "is_hit": false,
+          "score": 0.7413,
+          "text_snippet": "n sau đây thì được đăng ký xét công nhận tốt nghiệp: a) Đã hoàn thành đầy đủ các học phần theo yêu cầu của CTĐT trong th"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "A_QCDT_2025_p15_231",
+          "document_id": "QCDT_2025",
+          "page": 15,
+          "is_hit": false,
+          "score": 0.7371,
+          "text_snippet": "i hạn tối đa 03 năm kể từ khi hết thời hạn học tập được phép đăng ký học để hoàn thiện các học phần còn thiếu này và đề "
+        }
+      ]
+    },
+    {
+      "question_id": "DEV_02",
+      "split": "dev",
+      "strategy": "Strategy_A_Fixed",
+      "question": "Sinh viên bị nâng một mức cảnh báo học tập khi có số tín chỉ không đạt trong học kỳ là bao nhiêu?",
+      "gold_source": "QCDT_2023",
+      "gold_page": 17,
+      "has_filter": false,
+      "filter_used": null,
+      "filter_compliant": null,
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "top3": [
+        {
+          "rank": 1,
+          "chunk_id": "A_QCDT_2025_p18_248",
+          "document_id": "QCDT_2025",
+          "page": 18,
+          "is_hit": false,
+          "score": 0.8385,
+          "text_snippet": "từ đầu khóa lớn hơn 24. d) Sinh viên đang bị cảnh báo học tập mức 1 và mức 2, nếu số TC không đạt trong học kỳ nhỏ hơn h"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "A_QCDT_2023_p22_112",
+          "document_id": "QCDT_2023",
+          "page": 22,
+          "is_hit": false,
+          "score": 0.8103,
+          "text_snippet": "oa học sau đây: có bài báo khoa học liên quan đến nội dung luận văn đã được công bố (hoặc chấp nhận đăng) trên tạp chí k"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "A_QCDT_2025_p13_220",
+          "document_id": "QCDT_2025",
+          "page": 13,
+          "is_hit": false,
+          "score": 0.806,
+          "text_snippet": "hồi về các điều kiện bảo đảm chất lượng, hiệu quả học tập và sự hài lòng của người học đối với các lớp học phần. 2. Kết "
+        }
+      ]
+    },
+    {
+      "question_id": "DEV_03",
+      "split": "dev",
+      "strategy": "Strategy_A_Fixed",
+      "question": "Sinh viên bị áp dụng cảnh báo học tập mức 3 khi nào?",
+      "gold_source": "QCDT_2023",
+      "gold_page": 17,
+      "has_filter": false,
+      "filter_used": null,
+      "filter_compliant": null,
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "top3": [
+        {
+          "rank": 1,
+          "chunk_id": "A_QCDT_2025_p18_248",
+          "document_id": "QCDT_2025",
+          "page": 18,
+          "is_hit": false,
+          "score": 0.7668,
+          "text_snippet": "từ đầu khóa lớn hơn 24. d) Sinh viên đang bị cảnh báo học tập mức 1 và mức 2, nếu số TC không đạt trong học kỳ nhỏ hơn h"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "A_QCDT_2023_p17_81",
+          "document_id": "QCDT_2023",
+          "page": 17,
+          "is_hit": false,
+          "score": 0.7182,
+          "text_snippet": "ập mức 3, nếu số TC nợ đọng từ đầu khóa nhỏ hơn hoặc bằng 24 thì được hạ cảnh báo học tập xuống mức 2. e) Không xem xét "
+        },
+        {
+          "rank": 3,
+          "chunk_id": "A_QCDT_2025_p19_249",
+          "document_id": "QCDT_2025",
+          "page": 19,
+          "is_hit": false,
+          "score": 0.711,
+          "text_snippet": "15 tập này không phụ thuộc vào điều kiện nâng mức cảnh báo học tập tại mục a và mục b khoản này. e) Không xét cảnh báo h"
+        }
+      ]
+    },
+    {
+      "question_id": "DEV_04",
+      "split": "dev",
+      "strategy": "Strategy_A_Fixed",
+      "question": "Học kỳ hè có xem xét cảnh báo học tập đối với sinh viên không?",
+      "gold_source": "QCDT_2023",
+      "gold_page": 17,
+      "has_filter": false,
+      "filter_used": null,
+      "filter_compliant": null,
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "top3": [
+        {
+          "rank": 1,
+          "chunk_id": "A_QCDT_2025_p12_213",
+          "document_id": "QCDT_2025",
+          "page": 12,
+          "is_hit": false,
+          "score": 0.7538,
+          "text_snippet": "nh tại khoản 2 Điều 19 của Quy chế này. 3. Sau thời gian điều chỉnh đăng ký, sinh viên có thể đề nghị rút đăng ký học ph"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "A_QCDT_2023_p17_79",
+          "document_id": "QCDT_2023",
+          "page": 17,
+          "is_hit": false,
+          "score": 0.7527,
+          "text_snippet": "14 7. Sinh viên hội tụ đủ điều kiện tốt nghiệp cả hai CTĐT sẽ được cấp hai bằng tốt nghiệp và phụ lục văn bằng tương ứng"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "A_QCDT_2025_p19_249",
+          "document_id": "QCDT_2025",
+          "page": 19,
+          "is_hit": false,
+          "score": 0.7524,
+          "text_snippet": "15 tập này không phụ thuộc vào điều kiện nâng mức cảnh báo học tập tại mục a và mục b khoản này. e) Không xét cảnh báo h"
+        }
+      ]
+    },
+    {
+      "question_id": "DEV_05",
+      "split": "dev",
+      "strategy": "Strategy_A_Fixed",
+      "question": "Sinh viên thuộc CTĐT chuẩn bị hạn chế khối lượng học tập được đăng ký tối đa bao nhiêu tín chỉ trong một học kỳ chính?",
+      "gold_source": "QCDT_2023",
+      "gold_page": 17,
+      "has_filter": false,
+      "filter_used": null,
+      "filter_compliant": null,
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "top3": [
+        {
+          "rank": 1,
+          "chunk_id": "A_QCDT_2025_p15_231",
+          "document_id": "QCDT_2025",
+          "page": 15,
+          "is_hit": false,
+          "score": 0.851,
+          "text_snippet": "i hạn tối đa 03 năm kể từ khi hết thời hạn học tập được phép đăng ký học để hoàn thiện các học phần còn thiếu này và đề "
+        },
+        {
+          "rank": 2,
+          "chunk_id": "A_QCDT_2025_p13_220",
+          "document_id": "QCDT_2025",
+          "page": 13,
+          "is_hit": false,
+          "score": 0.8391,
+          "text_snippet": "hồi về các điều kiện bảo đảm chất lượng, hiệu quả học tập và sự hài lòng của người học đối với các lớp học phần. 2. Kết "
+        },
+        {
+          "rank": 3,
+          "chunk_id": "A_QCDT_2025_p7_186",
+          "document_id": "QCDT_2025",
+          "page": 7,
+          "is_hit": false,
+          "score": 0.8255,
+          "text_snippet": "ép học tại ĐHBK Hà Nội không quá 2 lần thời gian theo kế hoạch học tập chuẩn hoặc thời gian thiết kế đối với đào tạo liê"
+        }
+      ]
+    },
+    {
+      "question_id": "DEV_06",
+      "split": "dev",
+      "strategy": "Strategy_A_Fixed",
+      "question": "Sinh viên chương trình ELITECH bị hạn chế khối lượng học tập được đăng ký tối đa bao nhiêu tín chỉ?",
+      "gold_source": "QCDT_2023",
+      "gold_page": 17,
+      "has_filter": false,
+      "filter_used": null,
+      "filter_compliant": null,
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "top3": [
+        {
+          "rank": 1,
+          "chunk_id": "A_QCDT_2025_p7_186",
+          "document_id": "QCDT_2025",
+          "page": 7,
+          "is_hit": false,
+          "score": 0.7875,
+          "text_snippet": "ép học tại ĐHBK Hà Nội không quá 2 lần thời gian theo kế hoạch học tập chuẩn hoặc thời gian thiết kế đối với đào tạo liê"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "A_QCDT_2023_p11_46",
+          "document_id": "QCDT_2023",
+          "page": 11,
+          "is_hit": false,
+          "score": 0.7829,
+          "text_snippet": "quy định tại khoản 1 Điều 19 của Quy chế này được đăng ký tối đa 24 TC và tối thiểu 12 TC trong học kỳ chính, không áp d"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "A_QCDT_2023_p17_81",
+          "document_id": "QCDT_2023",
+          "page": 17,
+          "is_hit": false,
+          "score": 0.7818,
+          "text_snippet": "ập mức 3, nếu số TC nợ đọng từ đầu khóa nhỏ hơn hoặc bằng 24 thì được hạ cảnh báo học tập xuống mức 2. e) Không xem xét "
+        }
+      ]
+    },
+    {
+      "question_id": "DEV_07",
+      "split": "dev",
+      "strategy": "Strategy_A_Fixed",
+      "question": "Trường hợp nào sinh viên bị buộc thôi học do cảnh báo học tập?",
+      "gold_source": "QCDT_2023",
+      "gold_page": 17,
+      "has_filter": false,
+      "filter_used": null,
+      "filter_compliant": null,
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "top3": [
+        {
+          "rank": 1,
+          "chunk_id": "A_QCDT_2025_p19_249",
+          "document_id": "QCDT_2025",
+          "page": 19,
+          "is_hit": false,
+          "score": 0.7172,
+          "text_snippet": "15 tập này không phụ thuộc vào điều kiện nâng mức cảnh báo học tập tại mục a và mục b khoản này. e) Không xét cảnh báo h"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "A_QCDT_2025_p18_248",
+          "document_id": "QCDT_2025",
+          "page": 18,
+          "is_hit": false,
+          "score": 0.7105,
+          "text_snippet": "từ đầu khóa lớn hơn 24. d) Sinh viên đang bị cảnh báo học tập mức 1 và mức 2, nếu số TC không đạt trong học kỳ nhỏ hơn h"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "A_QCDT_2025_p7_186",
+          "document_id": "QCDT_2025",
+          "page": 7,
+          "is_hit": false,
+          "score": 0.7101,
+          "text_snippet": "ép học tại ĐHBK Hà Nội không quá 2 lần thời gian theo kế hoạch học tập chuẩn hoặc thời gian thiết kế đối với đào tạo liê"
+        }
+      ]
+    },
+    {
+      "question_id": "DEV_08",
+      "split": "dev",
+      "strategy": "Strategy_A_Fixed",
+      "question": "Sinh viên được phép đăng ký học chương trình thứ hai sớm nhất khi nào?",
+      "gold_source": "QCDT_2023",
+      "gold_page": 16,
+      "has_filter": false,
+      "filter_used": null,
+      "filter_compliant": null,
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "top3": [
+        {
+          "rank": 1,
+          "chunk_id": "A_QCDT_2025_p18_243",
+          "document_id": "QCDT_2025",
+          "page": 18,
+          "is_hit": false,
+          "score": 0.8147,
+          "text_snippet": "14 Điều 18. Học cùng lúc hai chương trình 1. Sinh viên thuộc hình thức đào tạo chính quy có thể đăng ký học thêm các học"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "A_QCDT_2023_p16_77",
+          "document_id": "QCDT_2023",
+          "page": 16,
+          "is_hit": false,
+          "score": 0.7998,
+          "text_snippet": "Sin h viên không duy trì được kết quả này sẽ bị loại khỏi danh sách đăng ký học chương trình thứ hai. 4. Thời gian tối đ"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "A_QCDT_2023_p16_78",
+          "document_id": "QCDT_2023",
+          "page": 16,
+          "is_hit": false,
+          "score": 0.7971,
+          "text_snippet": "o điểm miễn (điểm R). 6. Sinh viên chỉ được xét tốt nghiệp chương trì nh thứ hai, nếu có đủ điều kiện tốt nghiệp ở c hươ"
+        }
+      ]
+    },
+    {
+      "question_id": "DEV_09",
+      "split": "dev",
+      "strategy": "Strategy_A_Fixed",
+      "question": "Điểm đạt của học phần là từ điểm chữ nào trở lên?",
+      "gold_source": "QCDT_2023",
+      "gold_page": 8,
+      "has_filter": false,
+      "filter_used": null,
+      "filter_compliant": null,
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "top3": [
+        {
+          "rank": 1,
+          "chunk_id": "A_QCDT_2025_p24_275",
+          "document_id": "QCDT_2025",
+          "page": 24,
+          "is_hit": false,
+          "score": 0.781,
+          "text_snippet": "ủa CTĐT. 2. Đạt chuẩn ngoại ngữ đầu ra tương đương bậc 4/6 theo Khung năng lực ngo ại ngữ 6 bậc dùng cho Việt Nam hoặc c"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "A_QCDT_2023_p17_83",
+          "document_id": "QCDT_2023",
+          "page": 17,
+          "is_hit": false,
+          "score": 0.7758,
+          "text_snippet": "ản 3 Điều 3 của Quy chế này. Điều 20. Xử lý vi phạm đối với sinh viên 1. Sinh viên có gian lận trong thi, kiểm tra, đánh"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "A_QCDT_2023_p7_26",
+          "document_id": "QCDT_2023",
+          "page": 7,
+          "is_hit": false,
+          "score": 0.7734,
+          "text_snippet": "nh phần kh ác (thí nghiệm, bài tập lớn, tiểu luận, chuyên cần…); hình thức và trọng số đánh giá các thành phần được quy "
+        }
+      ]
+    },
+    {
+      "question_id": "DEV_10",
+      "split": "dev",
+      "strategy": "Strategy_A_Fixed",
+      "question": "Luận văn thạc sĩ đạt yêu cầu khi điểm bảo vệ đạt từ mức nào theo thang điểm?",
+      "gold_source": "QCDT_2023",
+      "gold_page": 23,
+      "has_filter": false,
+      "filter_used": null,
+      "filter_compliant": null,
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "top3": [
+        {
+          "rank": 1,
+          "chunk_id": "A_QCDT_2025_p25_281",
+          "document_id": "QCDT_2025",
+          "page": 25,
+          "is_hit": false,
+          "score": 0.8025,
+          "text_snippet": "g nhận tốt nghiệp: a) Luận văn đạt yêu cầu. b) Hoàn thành việc nộp quyển luận văn đã được chỉnh sửa theo kết luận của Hộ"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "A_QCDT_2023_p22_110",
+          "document_id": "QCDT_2023",
+          "page": 22,
+          "is_hit": false,
+          "score": 0.7834,
+          "text_snippet": "ác mà chương trình được thực hiện hoàn toàn bằng ngôn ngữ nước ngoài. 3. Điểm trung bình tích lũy (CPA) đạt từ 2,0 trở l"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "A_QCDT_2025_p24_274",
+          "document_id": "QCDT_2025",
+          "page": 24,
+          "is_hit": false,
+          "score": 0.7833,
+          "text_snippet": "óa, đạo đức và thuần phong mỹ tục của người Việt Nam; c) Tuân thủ quy định về liêm chính học thuật và các quy định hiện "
+        }
+      ]
+    },
+    {
+      "question_id": "DEV_11",
+      "split": "dev",
+      "strategy": "Strategy_A_Fixed",
+      "question": "Khung kế hoạch thời gian năm học của ĐHBK Hà Nội áp dụng cho đối tượng nào, ngoại trừ trường hợp nào?",
+      "gold_source": "QCDT_2023",
+      "gold_page": 6,
+      "has_filter": false,
+      "filter_used": null,
+      "filter_compliant": null,
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "top3": [
+        {
+          "rank": 1,
+          "chunk_id": "A_QCDT_2023_p18_88",
+          "document_id": "QCDT_2023",
+          "page": 18,
+          "is_hit": false,
+          "score": 0.7962,
+          "text_snippet": "à N ội xét tốt nghiệp nhiều đợt trong năm. Học viên muốn được xét tốt nghiệp phải đăng ký theo các mốc thời gian quy địn"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "A_QCDT_2025_p17_242",
+          "document_id": "QCDT_2025",
+          "page": 17,
+          "is_hit": false,
+          "score": 0.7849,
+          "text_snippet": "HBK Hà Nội phải đáp ứng điều kiện trúng tuyển của CTĐT cùng khóa tuyển sinh, đồng thời phải được sự đồng ý của Giám đốc "
+        },
+        {
+          "rank": 3,
+          "chunk_id": "A_QCDT_2025_p24_275",
+          "document_id": "QCDT_2025",
+          "page": 24,
+          "is_hit": false,
+          "score": 0.7765,
+          "text_snippet": "ủa CTĐT. 2. Đạt chuẩn ngoại ngữ đầu ra tương đương bậc 4/6 theo Khung năng lực ngo ại ngữ 6 bậc dùng cho Việt Nam hoặc c"
+        }
+      ]
+    },
+    {
+      "question_id": "DEV_12",
+      "split": "dev",
+      "strategy": "Strategy_A_Fixed",
+      "question": "Chương trình tích hợp cử nhân - kỹ sư có thời gian thiết kế là bao nhiêu năm?",
+      "gold_source": "QCDT_2023",
+      "gold_page": 5,
+      "has_filter": false,
+      "filter_used": null,
+      "filter_compliant": null,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "top3": [
+        {
+          "rank": 1,
+          "chunk_id": "A_QCDT_2023_p5_7",
+          "document_id": "QCDT_2023",
+          "page": 5,
+          "is_hit": true,
+          "score": 0.7778,
+          "text_snippet": "2 3. CTĐT tích hợp là chương trình được thiết kế tổng thể theo hướng tích hợp kiến thức của hai bậc trình độ , đảm bảo h"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "A_QCDT_2025_p6_174",
+          "document_id": "QCDT_2025",
+          "page": 6,
+          "is_hit": false,
+          "score": 0.771,
+          "text_snippet": "2 ưu hóa thời gian đào tạo cho người học. CTĐT tích hợp cử nhân-kỹ sư, cử nhân-thạc sĩ có thời gian thiết kế là 5,5 năm "
+        },
+        {
+          "rank": 3,
+          "chunk_id": "A_QCDT_2023_p15_72",
+          "document_id": "QCDT_2023",
+          "page": 15,
+          "is_hit": false,
+          "score": 0.7477,
+          "text_snippet": "2. Không cho phép chuyển CTĐT đối với sinh viên đã học từ năm thứ hai trở đi. 3. Sinh viên thuộc các trường hợp sau được"
+        }
+      ]
+    },
+    {
+      "question_id": "DEV_13",
+      "split": "dev",
+      "strategy": "Strategy_A_Fixed",
+      "question": "Theo Quy chế đào tạo ban hành năm 2025, quy định tại Điều 3 về thời gian và kế hoạch học tập nằm ở trang nào?",
+      "gold_source": "QCDT_2025",
+      "gold_page": 7,
+      "has_filter": true,
+      "filter_used": null,
+      "filter_compliant": true,
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "top3": [
+        {
+          "rank": 1,
+          "chunk_id": "A_QCDT_2023_p4_4",
+          "document_id": "QCDT_2023",
+          "page": 4,
+          "is_hit": false,
+          "score": 0.7673,
+          "text_snippet": "tạo; đối tượng đào tạo, điều kiện nhập học và điều kiện tốt nghiệp; mục tiêu đào tạo, chuẩn kiến thức, kỹ năng của người"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "A_QCDT_2025_p15_230",
+          "document_id": "QCDT_2025",
+          "page": 15,
+          "is_hit": false,
+          "score": 0.7596,
+          "text_snippet": "u kiện tốt nghiệp được Giám đốc ĐHBK Hà Nội ra quyết định công nhận tốt nghiệp và cấp bằng tốt nghiệp trong thời hạn 03 "
+        },
+        {
+          "rank": 3,
+          "chunk_id": "A_QCDT_2025_p34_329",
+          "document_id": "QCDT_2025",
+          "page": 34,
+          "is_hit": false,
+          "score": 0.7497,
+          "text_snippet": "thực hiện theo quy định của Quy chế tuyển sinh và đào tạo trình độ tiến sĩ ban hành kèm theo Thông tư số 08/2017/TT-BGDĐ"
+        }
+      ]
+    },
+    {
+      "question_id": "DEV_14",
+      "split": "dev",
+      "strategy": "Strategy_A_Fixed",
+      "question": "Trong văn bản năm 2023, quy định về học cùng lúc hai chương trình tại Điều 18 nằm ở trang nào?",
+      "gold_source": "QCDT_2023",
+      "gold_page": 16,
+      "has_filter": true,
+      "filter_used": null,
+      "filter_compliant": true,
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "top3": [
+        {
+          "rank": 1,
+          "chunk_id": "A_QCDT_2023_p31_163",
+          "document_id": "QCDT_2023",
+          "page": 31,
+          "is_hit": false,
+          "score": 0.7467,
+          "text_snippet": "eo quy định củ a Quy chế tuyển sinh và đào tạo trình độ tiến sĩ ban hành kèm thông tư số 18/2021/TT -BGDĐT ngày 28 tháng"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "A_QCDT_2023_p17_83",
+          "document_id": "QCDT_2023",
+          "page": 17,
+          "is_hit": false,
+          "score": 0.738,
+          "text_snippet": "ản 3 Điều 3 của Quy chế này. Điều 20. Xử lý vi phạm đối với sinh viên 1. Sinh viên có gian lận trong thi, kiểm tra, đánh"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "A_QCDT_2023_p4_6",
+          "document_id": "QCDT_2023",
+          "page": 4,
+          "is_hit": false,
+          "score": 0.7361,
+          "text_snippet": "áng 6 năm 2022 của Bộ trưởng Bộ Giáo dục và Đào tạo."
+        }
+      ]
+    },
+    {
+      "question_id": "DEV_15",
+      "split": "dev",
+      "strategy": "Strategy_A_Fixed",
+      "question": "Theo văn bản Quy chế năm 2025, quy định tại Điều 23 về đăng ký tốt nghiệp kỹ sư nằm ở trang nào?",
+      "gold_source": "QCDT_2025",
+      "gold_page": 20,
+      "has_filter": true,
+      "filter_used": null,
+      "filter_compliant": true,
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "top3": [
+        {
+          "rank": 1,
+          "chunk_id": "A_QCDT_2025_p5_173",
+          "document_id": "QCDT_2025",
+          "page": 5,
+          "is_hit": false,
+          "score": 0.7456,
+          "text_snippet": "ành theo Thông tư số 18/2021/TT -BGDĐT ngày 28 tháng 06 năm 2021 của Bộ trưởng Bộ Giáo dục và Đào tạo. 4 Danh mục thống "
+        },
+        {
+          "rank": 2,
+          "chunk_id": "A_QCDT_2023_p31_164",
+          "document_id": "QCDT_2023",
+          "page": 31,
+          "is_hit": false,
+          "score": 0.7347,
+          "text_snippet": "021/TT -BGDĐT ngày 28 tháng 6 năm 2021 của Bộ trưởng Bộ Giáo dục và Đào tạo và Quy chế đào t ạo ban hành kèm theo Quy ết"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "A_QCDT_2023_p4_5",
+          "document_id": "QCDT_2023",
+          "page": 4,
+          "is_hit": false,
+          "score": 0.7295,
+          "text_snippet": "ng Bộ Giáo dục và Đào tạo. 2 Quy chế tuyển sinh và đào tạo trình độ thạc sĩ , ban hành theo Thông tư số 23/2021/TT -BGDĐ"
+        }
+      ]
+    },
+    {
+      "question_id": "TEST_01",
+      "split": "test",
+      "strategy": "Strategy_A_Fixed",
+      "question": "Sinh viên đang bị cảnh báo học tập mức 1 và mức 2 được hạ một mức cảnh báo khi nào?",
+      "gold_source": "QCDT_2023",
+      "gold_page": 17,
+      "has_filter": false,
+      "filter_used": null,
+      "filter_compliant": null,
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "top3": [
+        {
+          "rank": 1,
+          "chunk_id": "A_QCDT_2025_p18_248",
+          "document_id": "QCDT_2025",
+          "page": 18,
+          "is_hit": false,
+          "score": 0.8721,
+          "text_snippet": "từ đầu khóa lớn hơn 24. d) Sinh viên đang bị cảnh báo học tập mức 1 và mức 2, nếu số TC không đạt trong học kỳ nhỏ hơn h"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "A_QCDT_2025_p19_249",
+          "document_id": "QCDT_2025",
+          "page": 19,
+          "is_hit": false,
+          "score": 0.7783,
+          "text_snippet": "15 tập này không phụ thuộc vào điều kiện nâng mức cảnh báo học tập tại mục a và mục b khoản này. e) Không xét cảnh báo h"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "A_QCDT_2025_p18_247",
+          "document_id": "QCDT_2025",
+          "page": 18,
+          "is_hit": false,
+          "score": 0.7697,
+          "text_snippet": "và buộc thôi học 1. Kết quả học tập được đánh giá vào cuối mỗi học kỳ chính để xác định mức độ cảnh báo học tập với sinh"
+        }
+      ]
+    },
+    {
+      "question_id": "TEST_02",
+      "split": "test",
+      "strategy": "Strategy_A_Fixed",
+      "question": "Sinh viên bị cảnh báo học tập mức 3 được hạ xuống mức 2 trong trường hợp nào?",
+      "gold_source": "QCDT_2023",
+      "gold_page": 17,
+      "has_filter": false,
+      "filter_used": null,
+      "filter_compliant": null,
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "top3": [
+        {
+          "rank": 1,
+          "chunk_id": "A_QCDT_2025_p18_248",
+          "document_id": "QCDT_2025",
+          "page": 18,
+          "is_hit": false,
+          "score": 0.8153,
+          "text_snippet": "từ đầu khóa lớn hơn 24. d) Sinh viên đang bị cảnh báo học tập mức 1 và mức 2, nếu số TC không đạt trong học kỳ nhỏ hơn h"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "A_QCDT_2023_p17_81",
+          "document_id": "QCDT_2023",
+          "page": 17,
+          "is_hit": false,
+          "score": 0.7754,
+          "text_snippet": "ập mức 3, nếu số TC nợ đọng từ đầu khóa nhỏ hơn hoặc bằng 24 thì được hạ cảnh báo học tập xuống mức 2. e) Không xem xét "
+        },
+        {
+          "rank": 3,
+          "chunk_id": "A_QCDT_2025_p19_249",
+          "document_id": "QCDT_2025",
+          "page": 19,
+          "is_hit": false,
+          "score": 0.7673,
+          "text_snippet": "15 tập này không phụ thuộc vào điều kiện nâng mức cảnh báo học tập tại mục a và mục b khoản này. e) Không xét cảnh báo h"
+        }
+      ]
+    },
+    {
+      "question_id": "TEST_03",
+      "split": "test",
+      "strategy": "Strategy_A_Fixed",
+      "question": "Tại thời điểm đăng ký học chương trình thứ hai, sinh viên phải có điểm trung bình tích lũy CPA xếp loại gì?",
+      "gold_source": "QCDT_2023",
+      "gold_page": 16,
+      "has_filter": false,
+      "filter_used": null,
+      "filter_compliant": null,
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "top3": [
+        {
+          "rank": 1,
+          "chunk_id": "A_QCDT_2025_p10_203",
+          "document_id": "QCDT_2025",
+          "page": 10,
+          "is_hit": false,
+          "score": 0.8358,
+          "text_snippet": "hân. 3. Điểm trung bình tích lũy (CPA) là trung bình cộng điểm số quy đổi theo thang 4 của các học phần đã học từ đầu kh"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "A_QCDT_2025_p18_244",
+          "document_id": "QCDT_2025",
+          "page": 18,
+          "is_hit": false,
+          "score": 0.8241,
+          "text_snippet": "ý, sinh viên phải có học lực tính theo điểm trung bình tích lũy (CPA) xếp loại từ trung bình trở lên và đáp ứng điều kiệ"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "A_QCDT_2025_p18_243",
+          "document_id": "QCDT_2025",
+          "page": 18,
+          "is_hit": false,
+          "score": 0.8126,
+          "text_snippet": "14 Điều 18. Học cùng lúc hai chương trình 1. Sinh viên thuộc hình thức đào tạo chính quy có thể đăng ký học thêm các học"
+        }
+      ]
+    },
+    {
+      "question_id": "TEST_04",
+      "split": "test",
+      "strategy": "Strategy_A_Fixed",
+      "question": "Đối với học phần đồ án hoặc khóa luận tốt nghiệp, điểm số dưới bao nhiêu thì bị coi là điểm liệt?",
+      "gold_source": "QCDT_2023",
+      "gold_page": 8,
+      "has_filter": false,
+      "filter_used": null,
+      "filter_compliant": null,
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "top3": [
+        {
+          "rank": 1,
+          "chunk_id": "A_QCDT_2023_p8_32",
+          "document_id": "QCDT_2023",
+          "page": 8,
+          "is_hit": false,
+          "score": 0.7725,
+          "text_snippet": "i với mỗi học phần đã đăng ký học tron g học kỳ (kể cả trường hợp có điểm quá trình là điểm liệt) và không có lần thi lạ"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "A_QCDT_2023_p22_112",
+          "document_id": "QCDT_2023",
+          "page": 22,
+          "is_hit": false,
+          "score": 0.7646,
+          "text_snippet": "oa học sau đây: có bài báo khoa học liên quan đến nội dung luận văn đã được công bố (hoặc chấp nhận đăng) trên tạp chí k"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "A_QCDT_2025_p15_231",
+          "document_id": "QCDT_2025",
+          "page": 15,
+          "is_hit": false,
+          "score": 0.762,
+          "text_snippet": "i hạn tối đa 03 năm kể từ khi hết thời hạn học tập được phép đăng ký học để hoàn thiện các học phần còn thiếu này và đề "
+        }
+      ]
+    },
+    {
+      "question_id": "TEST_05",
+      "split": "test",
+      "strategy": "Strategy_A_Fixed",
+      "question": "Theo Quy chế đào tạo ban hành năm 2025, quy định xử lý vi phạm đối với sinh viên được ghi nhận tại Điều 20 ở trang nào?",
+      "gold_source": "QCDT_2025",
+      "gold_page": 19,
+      "has_filter": true,
+      "filter_used": null,
+      "filter_compliant": true,
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "top3": [
+        {
+          "rank": 1,
+          "chunk_id": "A_QCDT_2025_p34_329",
+          "document_id": "QCDT_2025",
+          "page": 34,
+          "is_hit": false,
+          "score": 0.7824,
+          "text_snippet": "thực hiện theo quy định của Quy chế tuyển sinh và đào tạo trình độ tiến sĩ ban hành kèm theo Thông tư số 08/2017/TT-BGDĐ"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "A_QCDT_2023_p31_163",
+          "document_id": "QCDT_2023",
+          "page": 31,
+          "is_hit": false,
+          "score": 0.7667,
+          "text_snippet": "eo quy định củ a Quy chế tuyển sinh và đào tạo trình độ tiến sĩ ban hành kèm thông tư số 18/2021/TT -BGDĐT ngày 28 tháng"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "A_QCDT_2025_p34_328",
+          "document_id": "QCDT_2025",
+          "page": 34,
+          "is_hit": false,
+          "score": 0.7637,
+          "text_snippet": "21 đến trước ngày 01 tháng 8 năm 2025, ĐHBK Hà Nội thực hiện theo quy định của Quy chế tuyển sinh và đào tạo trình độ ti"
+        }
+      ]
+    }
+  ],
+  "results_B": [
+    {
+      "question_id": "DEV_01",
+      "split": "dev",
+      "strategy": "Strategy_B_Structure",
+      "question": "Theo quy định, một năm học tại ĐHBK Hà Nội bao gồm những học kỳ nào?",
+      "gold_source": "QCDT_2023",
+      "gold_page": 6,
+      "has_filter": false,
+      "filter_used": null,
+      "filter_compliant": null,
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "top3": [
+        {
+          "rank": 1,
+          "chunk_id": "B_QCDT_2023_p18_46",
+          "document_id": "QCDT_2023",
+          "page": 18,
+          "is_hit": false,
+          "score": 0.739,
+          "text_snippet": "Điều 23. Đăng ký tốt nghiệp kỹ sư 1. ĐHBK Hà N ội xét tốt nghiệp nhiều đợt trong năm. Học viên muốn được xét tốt nghiệp "
+        },
+        {
+          "rank": 2,
+          "chunk_id": "B_QCDT_2023_p6_7",
+          "document_id": "QCDT_2023",
+          "page": 6,
+          "is_hit": false,
+          "score": 0.738,
+          "text_snippet": "3 năm đó. Những cập nhật liên quan đến CTĐT của một khóa học chỉ được áp dụng khi không ảnh hưởng đến kết quả học tập, r"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "B_QCDT_2025_p5_92",
+          "document_id": "QCDT_2025",
+          "page": 5,
+          "is_hit": false,
+          "score": 0.7319,
+          "text_snippet": "BỘ GIÁO DỤC VÀ ĐÀO TẠO ĐẠI HỌC BÁCH KHOA HÀ NỘI CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc QUY CHẾ Đ"
+        }
+      ]
+    },
+    {
+      "question_id": "DEV_02",
+      "split": "dev",
+      "strategy": "Strategy_B_Structure",
+      "question": "Sinh viên bị nâng một mức cảnh báo học tập khi có số tín chỉ không đạt trong học kỳ là bao nhiêu?",
+      "gold_source": "QCDT_2023",
+      "gold_page": 17,
+      "has_filter": false,
+      "filter_used": null,
+      "filter_compliant": null,
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "top3": [
+        {
+          "rank": 1,
+          "chunk_id": "B_QCDT_2025_p7_101",
+          "document_id": "QCDT_2025",
+          "page": 7,
+          "is_hit": false,
+          "score": 0.806,
+          "text_snippet": "Điều 4. Tín chỉ và học phần 1. Tín chỉ là đơn vị đo khối lượng học tập. Một TC được tính tương đương 50 giờ học tập định"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "B_QCDT_2023_p6_10",
+          "document_id": "QCDT_2023",
+          "page": 6,
+          "is_hit": false,
+          "score": 0.8014,
+          "text_snippet": "Điều 4. Tín chỉ và học phần 1. Tín chỉ (TC) là đơn vị đo khối lượng học tập. Một TC được tính tương đương 50 giờ học tập"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "B_QCDT_2025_p23_145",
+          "document_id": "QCDT_2025",
+          "page": 23,
+          "is_hit": false,
+          "score": 0.7936,
+          "text_snippet": "Điều 28. Học bổ sung, công nhận tín chỉ 1. (tiếp): ên học chương trình tích hợp cử nhân-thạc sĩ của ĐHBK Hà Nội được đăn"
+        }
+      ]
+    },
+    {
+      "question_id": "DEV_03",
+      "split": "dev",
+      "strategy": "Strategy_B_Structure",
+      "question": "Sinh viên bị áp dụng cảnh báo học tập mức 3 khi nào?",
+      "gold_source": "QCDT_2023",
+      "gold_page": 17,
+      "has_filter": false,
+      "filter_used": null,
+      "filter_compliant": null,
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "top3": [
+        {
+          "rank": 1,
+          "chunk_id": "B_QCDT_2023_p6_7",
+          "document_id": "QCDT_2023",
+          "page": 6,
+          "is_hit": false,
+          "score": 0.7258,
+          "text_snippet": "3 năm đó. Những cập nhật liên quan đến CTĐT của một khóa học chỉ được áp dụng khi không ảnh hưởng đến kết quả học tập, r"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "B_QCDT_2023_p17_41",
+          "document_id": "QCDT_2023",
+          "page": 17,
+          "is_hit": false,
+          "score": 0.6964,
+          "text_snippet": "Điều 19. Cảnh báo học tập và buộc thôi học 1. (tiếp): i ngữ đăng ký số TC học phần ít hơ n bình thường, cụ thể như sau: "
+        },
+        {
+          "rank": 3,
+          "chunk_id": "B_QCDT_2025_p19_132",
+          "document_id": "QCDT_2025",
+          "page": 19,
+          "is_hit": false,
+          "score": 0.6858,
+          "text_snippet": "15 tập này không phụ thuộc vào điều kiện nâng mức cảnh báo học tập tại mục a và mục b khoản này. e) Không xét cảnh báo h"
+        }
+      ]
+    },
+    {
+      "question_id": "DEV_04",
+      "split": "dev",
+      "strategy": "Strategy_B_Structure",
+      "question": "Học kỳ hè có xem xét cảnh báo học tập đối với sinh viên không?",
+      "gold_source": "QCDT_2023",
+      "gold_page": 17,
+      "has_filter": false,
+      "filter_used": null,
+      "filter_compliant": null,
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "top3": [
+        {
+          "rank": 1,
+          "chunk_id": "B_QCDT_2025_p17_126",
+          "document_id": "QCDT_2025",
+          "page": 17,
+          "is_hit": false,
+          "score": 0.7663,
+          "text_snippet": "13 5. Tự nguyện thôi học: Sinh viên thấy không có đủ điều kiện hoặc không muốn tiếp tục học tại ĐHBK Hà Nội có thể làm đ"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "B_QCDT_2025_p23_145",
+          "document_id": "QCDT_2025",
+          "page": 23,
+          "is_hit": false,
+          "score": 0.7509,
+          "text_snippet": "Điều 28. Học bổ sung, công nhận tín chỉ 1. (tiếp): ên học chương trình tích hợp cử nhân-thạc sĩ của ĐHBK Hà Nội được đăn"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "B_QCDT_2025_p12_113",
+          "document_id": "QCDT_2025",
+          "page": 12,
+          "is_hit": false,
+          "score": 0.7358,
+          "text_snippet": "Điều 10. Đăng ký học tập chương trình đại học 1. (tiếp): iệm..), sinh viên phải đăng ký đủ các lớp thành phần theo yêu c"
+        }
+      ]
+    },
+    {
+      "question_id": "DEV_05",
+      "split": "dev",
+      "strategy": "Strategy_B_Structure",
+      "question": "Sinh viên thuộc CTĐT chuẩn bị hạn chế khối lượng học tập được đăng ký tối đa bao nhiêu tín chỉ trong một học kỳ chính?",
+      "gold_source": "QCDT_2023",
+      "gold_page": 17,
+      "has_filter": false,
+      "filter_used": null,
+      "filter_compliant": null,
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "top3": [
+        {
+          "rank": 1,
+          "chunk_id": "B_QCDT_2025_p13_116",
+          "document_id": "QCDT_2025",
+          "page": 13,
+          "is_hit": false,
+          "score": 0.8396,
+          "text_snippet": "Điều 11. Công nhận kết quả học tập và chuyển đổi tín chỉ 1. (tiếp): án tốt nghiệp/khóa luận tốt nghiệp được phép thực hi"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "B_QCDT_2025_p7_101",
+          "document_id": "QCDT_2025",
+          "page": 7,
+          "is_hit": false,
+          "score": 0.8292,
+          "text_snippet": "Điều 4. Tín chỉ và học phần 1. Tín chỉ là đơn vị đo khối lượng học tập. Một TC được tính tương đương 50 giờ học tập định"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "B_QCDT_2023_p15_35",
+          "document_id": "QCDT_2023",
+          "page": 15,
+          "is_hit": false,
+          "score": 0.8216,
+          "text_snippet": "Điều 17. Chuyển chương trình đào tạo, hình thức đào tạo 1. Sinh viên hoàn thành năm học thứ nhất được xem xét chuyển san"
+        }
+      ]
+    },
+    {
+      "question_id": "DEV_06",
+      "split": "dev",
+      "strategy": "Strategy_B_Structure",
+      "question": "Sinh viên chương trình ELITECH bị hạn chế khối lượng học tập được đăng ký tối đa bao nhiêu tín chỉ?",
+      "gold_source": "QCDT_2023",
+      "gold_page": 17,
+      "has_filter": false,
+      "filter_used": null,
+      "filter_compliant": null,
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "top3": [
+        {
+          "rank": 1,
+          "chunk_id": "B_QCDT_2025_p13_116",
+          "document_id": "QCDT_2025",
+          "page": 13,
+          "is_hit": false,
+          "score": 0.821,
+          "text_snippet": "Điều 11. Công nhận kết quả học tập và chuyển đổi tín chỉ 1. (tiếp): án tốt nghiệp/khóa luận tốt nghiệp được phép thực hi"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "B_QCDT_2025_p7_101",
+          "document_id": "QCDT_2025",
+          "page": 7,
+          "is_hit": false,
+          "score": 0.7906,
+          "text_snippet": "Điều 4. Tín chỉ và học phần 1. Tín chỉ là đơn vị đo khối lượng học tập. Một TC được tính tương đương 50 giờ học tập định"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "B_QCDT_2023_p6_10",
+          "document_id": "QCDT_2023",
+          "page": 6,
+          "is_hit": false,
+          "score": 0.7852,
+          "text_snippet": "Điều 4. Tín chỉ và học phần 1. Tín chỉ (TC) là đơn vị đo khối lượng học tập. Một TC được tính tương đương 50 giờ học tập"
+        }
+      ]
+    },
+    {
+      "question_id": "DEV_07",
+      "split": "dev",
+      "strategy": "Strategy_B_Structure",
+      "question": "Trường hợp nào sinh viên bị buộc thôi học do cảnh báo học tập?",
+      "gold_source": "QCDT_2023",
+      "gold_page": 17,
+      "has_filter": false,
+      "filter_used": null,
+      "filter_compliant": null,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "top3": [
+        {
+          "rank": 1,
+          "chunk_id": "B_QCDT_2023_p17_41",
+          "document_id": "QCDT_2023",
+          "page": 17,
+          "is_hit": true,
+          "score": 0.743,
+          "text_snippet": "Điều 19. Cảnh báo học tập và buộc thôi học 1. (tiếp): i ngữ đăng ký số TC học phần ít hơ n bình thường, cụ thể như sau: "
+        },
+        {
+          "rank": 2,
+          "chunk_id": "B_QCDT_2025_p19_132",
+          "document_id": "QCDT_2025",
+          "page": 19,
+          "is_hit": false,
+          "score": 0.7027,
+          "text_snippet": "15 tập này không phụ thuộc vào điều kiện nâng mức cảnh báo học tập tại mục a và mục b khoản này. e) Không xét cảnh báo h"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "B_QCDT_2025_p7_101",
+          "document_id": "QCDT_2025",
+          "page": 7,
+          "is_hit": false,
+          "score": 0.693,
+          "text_snippet": "Điều 4. Tín chỉ và học phần 1. Tín chỉ là đơn vị đo khối lượng học tập. Một TC được tính tương đương 50 giờ học tập định"
+        }
+      ]
+    },
+    {
+      "question_id": "DEV_08",
+      "split": "dev",
+      "strategy": "Strategy_B_Structure",
+      "question": "Sinh viên được phép đăng ký học chương trình thứ hai sớm nhất khi nào?",
+      "gold_source": "QCDT_2023",
+      "gold_page": 16,
+      "has_filter": false,
+      "filter_used": null,
+      "filter_compliant": null,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "top3": [
+        {
+          "rank": 1,
+          "chunk_id": "B_QCDT_2023_p16_37",
+          "document_id": "QCDT_2023",
+          "page": 16,
+          "is_hit": true,
+          "score": 0.7757,
+          "text_snippet": "Điều 18. Học cùng lúc hai chương trình 1. Sinh viên thuộc hình thức đào t ạo chính quy có thể đăng ký học thêm các học p"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "B_QCDT_2023_p16_38",
+          "document_id": "QCDT_2023",
+          "page": 16,
+          "is_hit": false,
+          "score": 0.7733,
+          "text_snippet": "Điều 18. Học cùng lúc hai chương trình 1. (tiếp): p học đối với sinh viên học cùng lúc hai chương trình là thời gian tối"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "B_QCDT_2025_p18_129",
+          "document_id": "QCDT_2025",
+          "page": 18,
+          "is_hit": false,
+          "score": 0.7703,
+          "text_snippet": "Điều 18. Học cùng lúc hai chương trình 1. Sinh viên thuộc hình thức đào tạo chính quy có thể đăng ký học thêm các học ph"
+        }
+      ]
+    },
+    {
+      "question_id": "DEV_09",
+      "split": "dev",
+      "strategy": "Strategy_B_Structure",
+      "question": "Điểm đạt của học phần là từ điểm chữ nào trở lên?",
+      "gold_source": "QCDT_2023",
+      "gold_page": 8,
+      "has_filter": false,
+      "filter_used": null,
+      "filter_compliant": null,
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "top3": [
+        {
+          "rank": 1,
+          "chunk_id": "B_QCDT_2025_p28_160",
+          "document_id": "QCDT_2025",
+          "page": 28,
+          "is_hit": false,
+          "score": 0.7732,
+          "text_snippet": "Điều 38. Học phần bổ sung và học phần tiến sĩ 1. (tiếp): nghiên cứu. a) Mỗi NCS phải hoàn thành tối thiểu 8 TC tương ứng"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "B_QCDT_2023_p32_91",
+          "document_id": "QCDT_2023",
+          "page": 32,
+          "is_hit": false,
+          "score": 0.7623,
+          "text_snippet": "29 b) Khoản 2 Điều 18 (về việc học cùng lúc hai chương trì nh) được áp dụng với các khóa tuyển sinh từ năm 2022. c) Nhữn"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "B_QCDT_2023_p10_20",
+          "document_id": "QCDT_2023",
+          "page": 10,
+          "is_hit": false,
+          "score": 0.7595,
+          "text_snippet": "Điều 9. Học phí 1. (tiếp): vọng thì đóng một nửa (50%) học phí của học kỳ đó. Quy định này không áp dụng với kỳ hè. 5. N"
+        }
+      ]
+    },
+    {
+      "question_id": "DEV_10",
+      "split": "dev",
+      "strategy": "Strategy_B_Structure",
+      "question": "Luận văn thạc sĩ đạt yêu cầu khi điểm bảo vệ đạt từ mức nào theo thang điểm?",
+      "gold_source": "QCDT_2023",
+      "gold_page": 23,
+      "has_filter": false,
+      "filter_used": null,
+      "filter_compliant": null,
+      "hit_at_1": false,
+      "hit_at_3": true,
+      "top3": [
+        {
+          "rank": 1,
+          "chunk_id": "B_QCDT_2025_p25_153",
+          "document_id": "QCDT_2025",
+          "page": 25,
+          "is_hit": false,
+          "score": 0.7677,
+          "text_snippet": "Điều 34. Điều kiện tốt nghiệp thạc sĩ và xếp hạng tốt nghiệp 1. Học viên có đủ các điều kiện sau đây thì được xét công n"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "B_QCDT_2023_p23_59",
+          "document_id": "QCDT_2023",
+          "page": 23,
+          "is_hit": true,
+          "score": 0.7449,
+          "text_snippet": "20 nghiệm thu, hoặc đề tài nghiên cứu đã được nghiệm thu do người hướng dẫn chủ trì và học viên là người thực hiện chính"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "B_QCDT_2023_p23_61",
+          "document_id": "QCDT_2023",
+          "page": 23,
+          "is_hit": false,
+          "score": 0.7424,
+          "text_snippet": "Điều 33. Điều kiện tốt nghiệp thạc sĩ và xếp hạng tốt nghiệp 1. Học viên có đủ các điều kiện sau đây thì được xét công n"
+        }
+      ]
+    },
+    {
+      "question_id": "DEV_11",
+      "split": "dev",
+      "strategy": "Strategy_B_Structure",
+      "question": "Khung kế hoạch thời gian năm học của ĐHBK Hà Nội áp dụng cho đối tượng nào, ngoại trừ trường hợp nào?",
+      "gold_source": "QCDT_2023",
+      "gold_page": 6,
+      "has_filter": false,
+      "filter_used": null,
+      "filter_compliant": null,
+      "hit_at_1": false,
+      "hit_at_3": true,
+      "top3": [
+        {
+          "rank": 1,
+          "chunk_id": "B_QCDT_2023_p18_46",
+          "document_id": "QCDT_2023",
+          "page": 18,
+          "is_hit": false,
+          "score": 0.7718,
+          "text_snippet": "Điều 23. Đăng ký tốt nghiệp kỹ sư 1. ĐHBK Hà N ội xét tốt nghiệp nhiều đợt trong năm. Học viên muốn được xét tốt nghiệp "
+        },
+        {
+          "rank": 2,
+          "chunk_id": "B_QCDT_2023_p6_8",
+          "document_id": "QCDT_2023",
+          "page": 6,
+          "is_hit": true,
+          "score": 0.7458,
+          "text_snippet": "Điều 3. Thời gian và kế hoạch học tập 1. ĐHBK Hà Nội tổ chức đào tạo theo năm học và học kỳ. Một năm học bao gồm hai học"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "B_QCDT_2025_p28_160",
+          "document_id": "QCDT_2025",
+          "page": 28,
+          "is_hit": false,
+          "score": 0.7445,
+          "text_snippet": "Điều 38. Học phần bổ sung và học phần tiến sĩ 1. (tiếp): nghiên cứu. a) Mỗi NCS phải hoàn thành tối thiểu 8 TC tương ứng"
+        }
+      ]
+    },
+    {
+      "question_id": "DEV_12",
+      "split": "dev",
+      "strategy": "Strategy_B_Structure",
+      "question": "Chương trình tích hợp cử nhân - kỹ sư có thời gian thiết kế là bao nhiêu năm?",
+      "gold_source": "QCDT_2023",
+      "gold_page": 5,
+      "has_filter": false,
+      "filter_used": null,
+      "filter_compliant": null,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "top3": [
+        {
+          "rank": 1,
+          "chunk_id": "B_QCDT_2023_p5_5",
+          "document_id": "QCDT_2023",
+          "page": 5,
+          "is_hit": true,
+          "score": 0.7584,
+          "text_snippet": "2 3. CTĐT tích hợp là chương trình được thiết kế tổng thể theo hướng tích hợp kiến thức của hai bậc trình độ , đảm bảo h"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "B_QCDT_2025_p6_96",
+          "document_id": "QCDT_2025",
+          "page": 6,
+          "is_hit": false,
+          "score": 0.744,
+          "text_snippet": "2 ưu hóa thời gian đào tạo cho người học. CTĐT tích hợp cử nhân-kỹ sư, cử nhân-thạc sĩ có thời gian thiết kế là 5,5 năm "
+        },
+        {
+          "rank": 3,
+          "chunk_id": "B_QCDT_2023_p5_6",
+          "document_id": "QCDT_2023",
+          "page": 5,
+          "is_hit": false,
+          "score": 0.717,
+          "text_snippet": "hương pháp và ngôn ngữ dạy và học. Chương trình ELITECH có mức độ quốc tế hóa cao với ngôn ngữ dạy và học chủ yếu bằng t"
+        }
+      ]
+    },
+    {
+      "question_id": "DEV_13",
+      "split": "dev",
+      "strategy": "Strategy_B_Structure",
+      "question": "Theo Quy chế đào tạo ban hành năm 2025, quy định tại Điều 3 về thời gian và kế hoạch học tập nằm ở trang nào?",
+      "gold_source": "QCDT_2025",
+      "gold_page": 7,
+      "has_filter": true,
+      "filter_used": null,
+      "filter_compliant": true,
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "top3": [
+        {
+          "rank": 1,
+          "chunk_id": "B_QCDT_2025_p24_146",
+          "document_id": "QCDT_2025",
+          "page": 24,
+          "is_hit": false,
+          "score": 0.7616,
+          "text_snippet": "20 3. Kết quả học tập có giá trị công nhận trong thời hạn 5 năm. Tổng số TC của các học phần được công nhận không vượt q"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "B_QCDT_2023_p31_90",
+          "document_id": "QCDT_2023",
+          "page": 31,
+          "is_hit": false,
+          "score": 0.7609,
+          "text_snippet": "Điều 47. Hiệu lực thi hành 1. Quy chế này được áp dụng từ năm học 2023-2024 cho tất cả các khóa đào tạo, trừ một số điều"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "B_QCDT_2023_p4_4",
+          "document_id": "QCDT_2023",
+          "page": 4,
+          "is_hit": false,
+          "score": 0.7531,
+          "text_snippet": "Điều 2. Ngành đào tạo, chương trình đào tạo 1. (tiếp): số 23/2021/TT -BGDĐT ngày 30 tháng 8 năm 2021 của Bộ trưởng Bộ Gi"
+        }
+      ]
+    },
+    {
+      "question_id": "DEV_14",
+      "split": "dev",
+      "strategy": "Strategy_B_Structure",
+      "question": "Trong văn bản năm 2023, quy định về học cùng lúc hai chương trình tại Điều 18 nằm ở trang nào?",
+      "gold_source": "QCDT_2023",
+      "gold_page": 16,
+      "has_filter": true,
+      "filter_used": null,
+      "filter_compliant": true,
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "top3": [
+        {
+          "rank": 1,
+          "chunk_id": "B_QCDT_2023_p4_4",
+          "document_id": "QCDT_2023",
+          "page": 4,
+          "is_hit": false,
+          "score": 0.7422,
+          "text_snippet": "Điều 2. Ngành đào tạo, chương trình đào tạo 1. (tiếp): số 23/2021/TT -BGDĐT ngày 30 tháng 8 năm 2021 của Bộ trưởng Bộ Gi"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "B_QCDT_2023_p32_91",
+          "document_id": "QCDT_2023",
+          "page": 32,
+          "is_hit": false,
+          "score": 0.7276,
+          "text_snippet": "29 b) Khoản 2 Điều 18 (về việc học cùng lúc hai chương trì nh) được áp dụng với các khóa tuyển sinh từ năm 2022. c) Nhữn"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "B_QCDT_2025_p25_150",
+          "document_id": "QCDT_2025",
+          "page": 25,
+          "is_hit": false,
+          "score": 0.7238,
+          "text_snippet": "21 hoàn toàn bằng ngôn ngữ nước ngoài. Yêu cầu ngoại ngữ đầu vào và ngoại ngữ đầu ra phải cùng một ngôn ngữ. 3. Người hư"
+        }
+      ]
+    },
+    {
+      "question_id": "DEV_15",
+      "split": "dev",
+      "strategy": "Strategy_B_Structure",
+      "question": "Theo văn bản Quy chế năm 2025, quy định tại Điều 23 về đăng ký tốt nghiệp kỹ sư nằm ở trang nào?",
+      "gold_source": "QCDT_2025",
+      "gold_page": 20,
+      "has_filter": true,
+      "filter_used": null,
+      "filter_compliant": true,
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "top3": [
+        {
+          "rank": 1,
+          "chunk_id": "B_QCDT_2023_p4_4",
+          "document_id": "QCDT_2023",
+          "page": 4,
+          "is_hit": false,
+          "score": 0.7197,
+          "text_snippet": "Điều 2. Ngành đào tạo, chương trình đào tạo 1. (tiếp): số 23/2021/TT -BGDĐT ngày 30 tháng 8 năm 2021 của Bộ trưởng Bộ Gi"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "B_QCDT_2025_p25_150",
+          "document_id": "QCDT_2025",
+          "page": 25,
+          "is_hit": false,
+          "score": 0.7153,
+          "text_snippet": "21 hoàn toàn bằng ngôn ngữ nước ngoài. Yêu cầu ngoại ngữ đầu vào và ngoại ngữ đầu ra phải cùng một ngôn ngữ. 3. Người hư"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "B_QCDT_2023_p31_90",
+          "document_id": "QCDT_2023",
+          "page": 31,
+          "is_hit": false,
+          "score": 0.7071,
+          "text_snippet": "Điều 47. Hiệu lực thi hành 1. Quy chế này được áp dụng từ năm học 2023-2024 cho tất cả các khóa đào tạo, trừ một số điều"
+        }
+      ]
+    },
+    {
+      "question_id": "TEST_01",
+      "split": "test",
+      "strategy": "Strategy_B_Structure",
+      "question": "Sinh viên đang bị cảnh báo học tập mức 1 và mức 2 được hạ một mức cảnh báo khi nào?",
+      "gold_source": "QCDT_2023",
+      "gold_page": 17,
+      "has_filter": false,
+      "filter_used": null,
+      "filter_compliant": null,
+      "hit_at_1": false,
+      "hit_at_3": true,
+      "top3": [
+        {
+          "rank": 1,
+          "chunk_id": "B_QCDT_2025_p18_131",
+          "document_id": "QCDT_2025",
+          "page": 18,
+          "is_hit": false,
+          "score": 0.7715,
+          "text_snippet": "Điều 19. Cảnh báo học tập và buộc thôi học 1. Kết quả học tập được đánh giá vào cuối mỗi học kỳ chính để xác định mức độ"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "B_QCDT_2023_p17_40",
+          "document_id": "QCDT_2023",
+          "page": 17,
+          "is_hit": true,
+          "score": 0.765,
+          "text_snippet": "Điều 19. Cảnh báo học tập và buộc thôi học 1. Kết quả học tập được đánh giá vào cuối mỗi học kỳ chính để xác định mức độ"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "B_QCDT_2025_p19_132",
+          "document_id": "QCDT_2025",
+          "page": 19,
+          "is_hit": false,
+          "score": 0.7404,
+          "text_snippet": "15 tập này không phụ thuộc vào điều kiện nâng mức cảnh báo học tập tại mục a và mục b khoản này. e) Không xét cảnh báo h"
+        }
+      ]
+    },
+    {
+      "question_id": "TEST_02",
+      "split": "test",
+      "strategy": "Strategy_B_Structure",
+      "question": "Sinh viên bị cảnh báo học tập mức 3 được hạ xuống mức 2 trong trường hợp nào?",
+      "gold_source": "QCDT_2023",
+      "gold_page": 17,
+      "has_filter": false,
+      "filter_used": null,
+      "filter_compliant": null,
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "top3": [
+        {
+          "rank": 1,
+          "chunk_id": "B_QCDT_2023_p17_41",
+          "document_id": "QCDT_2023",
+          "page": 17,
+          "is_hit": false,
+          "score": 0.7688,
+          "text_snippet": "Điều 19. Cảnh báo học tập và buộc thôi học 1. (tiếp): i ngữ đăng ký số TC học phần ít hơ n bình thường, cụ thể như sau: "
+        },
+        {
+          "rank": 2,
+          "chunk_id": "B_QCDT_2025_p23_145",
+          "document_id": "QCDT_2025",
+          "page": 23,
+          "is_hit": false,
+          "score": 0.7546,
+          "text_snippet": "Điều 28. Học bổ sung, công nhận tín chỉ 1. (tiếp): ên học chương trình tích hợp cử nhân-thạc sĩ của ĐHBK Hà Nội được đăn"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "B_QCDT_2025_p18_131",
+          "document_id": "QCDT_2025",
+          "page": 18,
+          "is_hit": false,
+          "score": 0.7356,
+          "text_snippet": "Điều 19. Cảnh báo học tập và buộc thôi học 1. Kết quả học tập được đánh giá vào cuối mỗi học kỳ chính để xác định mức độ"
+        }
+      ]
+    },
+    {
+      "question_id": "TEST_03",
+      "split": "test",
+      "strategy": "Strategy_B_Structure",
+      "question": "Tại thời điểm đăng ký học chương trình thứ hai, sinh viên phải có điểm trung bình tích lũy CPA xếp loại gì?",
+      "gold_source": "QCDT_2023",
+      "gold_page": 16,
+      "has_filter": false,
+      "filter_used": null,
+      "filter_compliant": null,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "top3": [
+        {
+          "rank": 1,
+          "chunk_id": "B_QCDT_2023_p16_37",
+          "document_id": "QCDT_2023",
+          "page": 16,
+          "is_hit": true,
+          "score": 0.822,
+          "text_snippet": "Điều 18. Học cùng lúc hai chương trình 1. Sinh viên thuộc hình thức đào t ạo chính quy có thể đăng ký học thêm các học p"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "B_QCDT_2025_p18_129",
+          "document_id": "QCDT_2025",
+          "page": 18,
+          "is_hit": false,
+          "score": 0.8187,
+          "text_snippet": "Điều 18. Học cùng lúc hai chương trình 1. Sinh viên thuộc hình thức đào tạo chính quy có thể đăng ký học thêm các học ph"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "B_QCDT_2025_p17_126",
+          "document_id": "QCDT_2025",
+          "page": 17,
+          "is_hit": false,
+          "score": 0.7853,
+          "text_snippet": "13 5. Tự nguyện thôi học: Sinh viên thấy không có đủ điều kiện hoặc không muốn tiếp tục học tại ĐHBK Hà Nội có thể làm đ"
+        }
+      ]
+    },
+    {
+      "question_id": "TEST_04",
+      "split": "test",
+      "strategy": "Strategy_B_Structure",
+      "question": "Đối với học phần đồ án hoặc khóa luận tốt nghiệp, điểm số dưới bao nhiêu thì bị coi là điểm liệt?",
+      "gold_source": "QCDT_2023",
+      "gold_page": 8,
+      "has_filter": false,
+      "filter_used": null,
+      "filter_compliant": null,
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "top3": [
+        {
+          "rank": 1,
+          "chunk_id": "B_QCDT_2023_p8_14",
+          "document_id": "QCDT_2023",
+          "page": 8,
+          "is_hit": false,
+          "score": 0.7658,
+          "text_snippet": "Điều 6. Hoãn thi, miễn thi, phúc tra và khiếu nại điểm 1. Đối với hình thức đào tạo chính quy, n gười học được thi cuối "
+        },
+        {
+          "rank": 2,
+          "chunk_id": "B_QCDT_2025_p9_106",
+          "document_id": "QCDT_2025",
+          "page": 9,
+          "is_hit": false,
+          "score": 0.7487,
+          "text_snippet": "Điều 5. Điểm học phần 1. (tiếp): thức đánh giá trực tuyến được áp dụng khi đảm bảo trung thực, công bằng và khách quan n"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "B_QCDT_2025_p13_116",
+          "document_id": "QCDT_2025",
+          "page": 13,
+          "is_hit": false,
+          "score": 0.7453,
+          "text_snippet": "Điều 11. Công nhận kết quả học tập và chuyển đổi tín chỉ 1. (tiếp): án tốt nghiệp/khóa luận tốt nghiệp được phép thực hi"
+        }
+      ]
+    },
+    {
+      "question_id": "TEST_05",
+      "split": "test",
+      "strategy": "Strategy_B_Structure",
+      "question": "Theo Quy chế đào tạo ban hành năm 2025, quy định xử lý vi phạm đối với sinh viên được ghi nhận tại Điều 20 ở trang nào?",
+      "gold_source": "QCDT_2025",
+      "gold_page": 19,
+      "has_filter": true,
+      "filter_used": null,
+      "filter_compliant": true,
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "top3": [
+        {
+          "rank": 1,
+          "chunk_id": "B_QCDT_2023_p17_42",
+          "document_id": "QCDT_2023",
+          "page": 17,
+          "is_hit": false,
+          "score": 0.8066,
+          "text_snippet": "Điều 20. Xử lý vi phạm đối với sinh viên 1. Sinh viên có gian lận trong thi, kiểm tra, đánh giá kết quả học tậ p sẽ bị x"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "B_QCDT_2023_p31_90",
+          "document_id": "QCDT_2023",
+          "page": 31,
+          "is_hit": false,
+          "score": 0.7803,
+          "text_snippet": "Điều 47. Hiệu lực thi hành 1. Quy chế này được áp dụng từ năm học 2023-2024 cho tất cả các khóa đào tạo, trừ một số điều"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "B_QCDT_2025_p34_178",
+          "document_id": "QCDT_2025",
+          "page": 34,
+          "is_hit": false,
+          "score": 0.77,
+          "text_snippet": "Điều 48. Hiệu lực thi hành 1. Quy chế này có hiệu lực thi hành từ học kỳ 1 năm học 2025-2026 và thay thế Quy chế đào tạo"
+        }
+      ]
+    }
+  ],
+  "results_C": [
+    {
+      "question_id": "DEV_01",
+      "split": "dev",
+      "strategy": "Strategy_C_Filtered",
+      "question": "Theo quy định, một năm học tại ĐHBK Hà Nội bao gồm những học kỳ nào?",
+      "gold_source": "QCDT_2023",
+      "gold_page": 6,
+      "has_filter": false,
+      "filter_used": null,
+      "filter_compliant": null,
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "top3": [
+        {
+          "rank": 1,
+          "chunk_id": "B_QCDT_2023_p18_46",
+          "document_id": "QCDT_2023",
+          "page": 18,
+          "is_hit": false,
+          "score": 0.739,
+          "text_snippet": "Điều 23. Đăng ký tốt nghiệp kỹ sư 1. ĐHBK Hà N ội xét tốt nghiệp nhiều đợt trong năm. Học viên muốn được xét tốt nghiệp "
+        },
+        {
+          "rank": 2,
+          "chunk_id": "B_QCDT_2023_p6_7",
+          "document_id": "QCDT_2023",
+          "page": 6,
+          "is_hit": false,
+          "score": 0.738,
+          "text_snippet": "3 năm đó. Những cập nhật liên quan đến CTĐT của một khóa học chỉ được áp dụng khi không ảnh hưởng đến kết quả học tập, r"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "B_QCDT_2025_p5_92",
+          "document_id": "QCDT_2025",
+          "page": 5,
+          "is_hit": false,
+          "score": 0.7319,
+          "text_snippet": "BỘ GIÁO DỤC VÀ ĐÀO TẠO ĐẠI HỌC BÁCH KHOA HÀ NỘI CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc QUY CHẾ Đ"
+        }
+      ]
+    },
+    {
+      "question_id": "DEV_02",
+      "split": "dev",
+      "strategy": "Strategy_C_Filtered",
+      "question": "Sinh viên bị nâng một mức cảnh báo học tập khi có số tín chỉ không đạt trong học kỳ là bao nhiêu?",
+      "gold_source": "QCDT_2023",
+      "gold_page": 17,
+      "has_filter": false,
+      "filter_used": null,
+      "filter_compliant": null,
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "top3": [
+        {
+          "rank": 1,
+          "chunk_id": "B_QCDT_2025_p7_101",
+          "document_id": "QCDT_2025",
+          "page": 7,
+          "is_hit": false,
+          "score": 0.806,
+          "text_snippet": "Điều 4. Tín chỉ và học phần 1. Tín chỉ là đơn vị đo khối lượng học tập. Một TC được tính tương đương 50 giờ học tập định"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "B_QCDT_2023_p6_10",
+          "document_id": "QCDT_2023",
+          "page": 6,
+          "is_hit": false,
+          "score": 0.8014,
+          "text_snippet": "Điều 4. Tín chỉ và học phần 1. Tín chỉ (TC) là đơn vị đo khối lượng học tập. Một TC được tính tương đương 50 giờ học tập"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "B_QCDT_2025_p23_145",
+          "document_id": "QCDT_2025",
+          "page": 23,
+          "is_hit": false,
+          "score": 0.7936,
+          "text_snippet": "Điều 28. Học bổ sung, công nhận tín chỉ 1. (tiếp): ên học chương trình tích hợp cử nhân-thạc sĩ của ĐHBK Hà Nội được đăn"
+        }
+      ]
+    },
+    {
+      "question_id": "DEV_03",
+      "split": "dev",
+      "strategy": "Strategy_C_Filtered",
+      "question": "Sinh viên bị áp dụng cảnh báo học tập mức 3 khi nào?",
+      "gold_source": "QCDT_2023",
+      "gold_page": 17,
+      "has_filter": false,
+      "filter_used": null,
+      "filter_compliant": null,
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "top3": [
+        {
+          "rank": 1,
+          "chunk_id": "B_QCDT_2023_p6_7",
+          "document_id": "QCDT_2023",
+          "page": 6,
+          "is_hit": false,
+          "score": 0.7258,
+          "text_snippet": "3 năm đó. Những cập nhật liên quan đến CTĐT của một khóa học chỉ được áp dụng khi không ảnh hưởng đến kết quả học tập, r"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "B_QCDT_2023_p17_41",
+          "document_id": "QCDT_2023",
+          "page": 17,
+          "is_hit": false,
+          "score": 0.6964,
+          "text_snippet": "Điều 19. Cảnh báo học tập và buộc thôi học 1. (tiếp): i ngữ đăng ký số TC học phần ít hơ n bình thường, cụ thể như sau: "
+        },
+        {
+          "rank": 3,
+          "chunk_id": "B_QCDT_2025_p19_132",
+          "document_id": "QCDT_2025",
+          "page": 19,
+          "is_hit": false,
+          "score": 0.6858,
+          "text_snippet": "15 tập này không phụ thuộc vào điều kiện nâng mức cảnh báo học tập tại mục a và mục b khoản này. e) Không xét cảnh báo h"
+        }
+      ]
+    },
+    {
+      "question_id": "DEV_04",
+      "split": "dev",
+      "strategy": "Strategy_C_Filtered",
+      "question": "Học kỳ hè có xem xét cảnh báo học tập đối với sinh viên không?",
+      "gold_source": "QCDT_2023",
+      "gold_page": 17,
+      "has_filter": false,
+      "filter_used": null,
+      "filter_compliant": null,
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "top3": [
+        {
+          "rank": 1,
+          "chunk_id": "B_QCDT_2025_p17_126",
+          "document_id": "QCDT_2025",
+          "page": 17,
+          "is_hit": false,
+          "score": 0.7663,
+          "text_snippet": "13 5. Tự nguyện thôi học: Sinh viên thấy không có đủ điều kiện hoặc không muốn tiếp tục học tại ĐHBK Hà Nội có thể làm đ"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "B_QCDT_2025_p23_145",
+          "document_id": "QCDT_2025",
+          "page": 23,
+          "is_hit": false,
+          "score": 0.7509,
+          "text_snippet": "Điều 28. Học bổ sung, công nhận tín chỉ 1. (tiếp): ên học chương trình tích hợp cử nhân-thạc sĩ của ĐHBK Hà Nội được đăn"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "B_QCDT_2025_p12_113",
+          "document_id": "QCDT_2025",
+          "page": 12,
+          "is_hit": false,
+          "score": 0.7358,
+          "text_snippet": "Điều 10. Đăng ký học tập chương trình đại học 1. (tiếp): iệm..), sinh viên phải đăng ký đủ các lớp thành phần theo yêu c"
+        }
+      ]
+    },
+    {
+      "question_id": "DEV_05",
+      "split": "dev",
+      "strategy": "Strategy_C_Filtered",
+      "question": "Sinh viên thuộc CTĐT chuẩn bị hạn chế khối lượng học tập được đăng ký tối đa bao nhiêu tín chỉ trong một học kỳ chính?",
+      "gold_source": "QCDT_2023",
+      "gold_page": 17,
+      "has_filter": false,
+      "filter_used": null,
+      "filter_compliant": null,
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "top3": [
+        {
+          "rank": 1,
+          "chunk_id": "B_QCDT_2025_p13_116",
+          "document_id": "QCDT_2025",
+          "page": 13,
+          "is_hit": false,
+          "score": 0.8396,
+          "text_snippet": "Điều 11. Công nhận kết quả học tập và chuyển đổi tín chỉ 1. (tiếp): án tốt nghiệp/khóa luận tốt nghiệp được phép thực hi"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "B_QCDT_2025_p7_101",
+          "document_id": "QCDT_2025",
+          "page": 7,
+          "is_hit": false,
+          "score": 0.8292,
+          "text_snippet": "Điều 4. Tín chỉ và học phần 1. Tín chỉ là đơn vị đo khối lượng học tập. Một TC được tính tương đương 50 giờ học tập định"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "B_QCDT_2023_p15_35",
+          "document_id": "QCDT_2023",
+          "page": 15,
+          "is_hit": false,
+          "score": 0.8216,
+          "text_snippet": "Điều 17. Chuyển chương trình đào tạo, hình thức đào tạo 1. Sinh viên hoàn thành năm học thứ nhất được xem xét chuyển san"
+        }
+      ]
+    },
+    {
+      "question_id": "DEV_06",
+      "split": "dev",
+      "strategy": "Strategy_C_Filtered",
+      "question": "Sinh viên chương trình ELITECH bị hạn chế khối lượng học tập được đăng ký tối đa bao nhiêu tín chỉ?",
+      "gold_source": "QCDT_2023",
+      "gold_page": 17,
+      "has_filter": false,
+      "filter_used": null,
+      "filter_compliant": null,
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "top3": [
+        {
+          "rank": 1,
+          "chunk_id": "B_QCDT_2025_p13_116",
+          "document_id": "QCDT_2025",
+          "page": 13,
+          "is_hit": false,
+          "score": 0.821,
+          "text_snippet": "Điều 11. Công nhận kết quả học tập và chuyển đổi tín chỉ 1. (tiếp): án tốt nghiệp/khóa luận tốt nghiệp được phép thực hi"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "B_QCDT_2025_p7_101",
+          "document_id": "QCDT_2025",
+          "page": 7,
+          "is_hit": false,
+          "score": 0.7906,
+          "text_snippet": "Điều 4. Tín chỉ và học phần 1. Tín chỉ là đơn vị đo khối lượng học tập. Một TC được tính tương đương 50 giờ học tập định"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "B_QCDT_2023_p6_10",
+          "document_id": "QCDT_2023",
+          "page": 6,
+          "is_hit": false,
+          "score": 0.7852,
+          "text_snippet": "Điều 4. Tín chỉ và học phần 1. Tín chỉ (TC) là đơn vị đo khối lượng học tập. Một TC được tính tương đương 50 giờ học tập"
+        }
+      ]
+    },
+    {
+      "question_id": "DEV_07",
+      "split": "dev",
+      "strategy": "Strategy_C_Filtered",
+      "question": "Trường hợp nào sinh viên bị buộc thôi học do cảnh báo học tập?",
+      "gold_source": "QCDT_2023",
+      "gold_page": 17,
+      "has_filter": false,
+      "filter_used": null,
+      "filter_compliant": null,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "top3": [
+        {
+          "rank": 1,
+          "chunk_id": "B_QCDT_2023_p17_41",
+          "document_id": "QCDT_2023",
+          "page": 17,
+          "is_hit": true,
+          "score": 0.743,
+          "text_snippet": "Điều 19. Cảnh báo học tập và buộc thôi học 1. (tiếp): i ngữ đăng ký số TC học phần ít hơ n bình thường, cụ thể như sau: "
+        },
+        {
+          "rank": 2,
+          "chunk_id": "B_QCDT_2025_p19_132",
+          "document_id": "QCDT_2025",
+          "page": 19,
+          "is_hit": false,
+          "score": 0.7027,
+          "text_snippet": "15 tập này không phụ thuộc vào điều kiện nâng mức cảnh báo học tập tại mục a và mục b khoản này. e) Không xét cảnh báo h"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "B_QCDT_2025_p7_101",
+          "document_id": "QCDT_2025",
+          "page": 7,
+          "is_hit": false,
+          "score": 0.693,
+          "text_snippet": "Điều 4. Tín chỉ và học phần 1. Tín chỉ là đơn vị đo khối lượng học tập. Một TC được tính tương đương 50 giờ học tập định"
+        }
+      ]
+    },
+    {
+      "question_id": "DEV_08",
+      "split": "dev",
+      "strategy": "Strategy_C_Filtered",
+      "question": "Sinh viên được phép đăng ký học chương trình thứ hai sớm nhất khi nào?",
+      "gold_source": "QCDT_2023",
+      "gold_page": 16,
+      "has_filter": false,
+      "filter_used": null,
+      "filter_compliant": null,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "top3": [
+        {
+          "rank": 1,
+          "chunk_id": "B_QCDT_2023_p16_37",
+          "document_id": "QCDT_2023",
+          "page": 16,
+          "is_hit": true,
+          "score": 0.7757,
+          "text_snippet": "Điều 18. Học cùng lúc hai chương trình 1. Sinh viên thuộc hình thức đào t ạo chính quy có thể đăng ký học thêm các học p"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "B_QCDT_2023_p16_38",
+          "document_id": "QCDT_2023",
+          "page": 16,
+          "is_hit": false,
+          "score": 0.7733,
+          "text_snippet": "Điều 18. Học cùng lúc hai chương trình 1. (tiếp): p học đối với sinh viên học cùng lúc hai chương trình là thời gian tối"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "B_QCDT_2025_p18_129",
+          "document_id": "QCDT_2025",
+          "page": 18,
+          "is_hit": false,
+          "score": 0.7703,
+          "text_snippet": "Điều 18. Học cùng lúc hai chương trình 1. Sinh viên thuộc hình thức đào tạo chính quy có thể đăng ký học thêm các học ph"
+        }
+      ]
+    },
+    {
+      "question_id": "DEV_09",
+      "split": "dev",
+      "strategy": "Strategy_C_Filtered",
+      "question": "Điểm đạt của học phần là từ điểm chữ nào trở lên?",
+      "gold_source": "QCDT_2023",
+      "gold_page": 8,
+      "has_filter": false,
+      "filter_used": null,
+      "filter_compliant": null,
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "top3": [
+        {
+          "rank": 1,
+          "chunk_id": "B_QCDT_2025_p28_160",
+          "document_id": "QCDT_2025",
+          "page": 28,
+          "is_hit": false,
+          "score": 0.7732,
+          "text_snippet": "Điều 38. Học phần bổ sung và học phần tiến sĩ 1. (tiếp): nghiên cứu. a) Mỗi NCS phải hoàn thành tối thiểu 8 TC tương ứng"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "B_QCDT_2023_p32_91",
+          "document_id": "QCDT_2023",
+          "page": 32,
+          "is_hit": false,
+          "score": 0.7623,
+          "text_snippet": "29 b) Khoản 2 Điều 18 (về việc học cùng lúc hai chương trì nh) được áp dụng với các khóa tuyển sinh từ năm 2022. c) Nhữn"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "B_QCDT_2023_p10_20",
+          "document_id": "QCDT_2023",
+          "page": 10,
+          "is_hit": false,
+          "score": 0.7595,
+          "text_snippet": "Điều 9. Học phí 1. (tiếp): vọng thì đóng một nửa (50%) học phí của học kỳ đó. Quy định này không áp dụng với kỳ hè. 5. N"
+        }
+      ]
+    },
+    {
+      "question_id": "DEV_10",
+      "split": "dev",
+      "strategy": "Strategy_C_Filtered",
+      "question": "Luận văn thạc sĩ đạt yêu cầu khi điểm bảo vệ đạt từ mức nào theo thang điểm?",
+      "gold_source": "QCDT_2023",
+      "gold_page": 23,
+      "has_filter": false,
+      "filter_used": null,
+      "filter_compliant": null,
+      "hit_at_1": false,
+      "hit_at_3": true,
+      "top3": [
+        {
+          "rank": 1,
+          "chunk_id": "B_QCDT_2025_p25_153",
+          "document_id": "QCDT_2025",
+          "page": 25,
+          "is_hit": false,
+          "score": 0.7677,
+          "text_snippet": "Điều 34. Điều kiện tốt nghiệp thạc sĩ và xếp hạng tốt nghiệp 1. Học viên có đủ các điều kiện sau đây thì được xét công n"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "B_QCDT_2023_p23_59",
+          "document_id": "QCDT_2023",
+          "page": 23,
+          "is_hit": true,
+          "score": 0.7449,
+          "text_snippet": "20 nghiệm thu, hoặc đề tài nghiên cứu đã được nghiệm thu do người hướng dẫn chủ trì và học viên là người thực hiện chính"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "B_QCDT_2023_p23_61",
+          "document_id": "QCDT_2023",
+          "page": 23,
+          "is_hit": false,
+          "score": 0.7424,
+          "text_snippet": "Điều 33. Điều kiện tốt nghiệp thạc sĩ và xếp hạng tốt nghiệp 1. Học viên có đủ các điều kiện sau đây thì được xét công n"
+        }
+      ]
+    },
+    {
+      "question_id": "DEV_11",
+      "split": "dev",
+      "strategy": "Strategy_C_Filtered",
+      "question": "Khung kế hoạch thời gian năm học của ĐHBK Hà Nội áp dụng cho đối tượng nào, ngoại trừ trường hợp nào?",
+      "gold_source": "QCDT_2023",
+      "gold_page": 6,
+      "has_filter": false,
+      "filter_used": null,
+      "filter_compliant": null,
+      "hit_at_1": false,
+      "hit_at_3": true,
+      "top3": [
+        {
+          "rank": 1,
+          "chunk_id": "B_QCDT_2023_p18_46",
+          "document_id": "QCDT_2023",
+          "page": 18,
+          "is_hit": false,
+          "score": 0.7718,
+          "text_snippet": "Điều 23. Đăng ký tốt nghiệp kỹ sư 1. ĐHBK Hà N ội xét tốt nghiệp nhiều đợt trong năm. Học viên muốn được xét tốt nghiệp "
+        },
+        {
+          "rank": 2,
+          "chunk_id": "B_QCDT_2023_p6_8",
+          "document_id": "QCDT_2023",
+          "page": 6,
+          "is_hit": true,
+          "score": 0.7458,
+          "text_snippet": "Điều 3. Thời gian và kế hoạch học tập 1. ĐHBK Hà Nội tổ chức đào tạo theo năm học và học kỳ. Một năm học bao gồm hai học"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "B_QCDT_2025_p28_160",
+          "document_id": "QCDT_2025",
+          "page": 28,
+          "is_hit": false,
+          "score": 0.7445,
+          "text_snippet": "Điều 38. Học phần bổ sung và học phần tiến sĩ 1. (tiếp): nghiên cứu. a) Mỗi NCS phải hoàn thành tối thiểu 8 TC tương ứng"
+        }
+      ]
+    },
+    {
+      "question_id": "DEV_12",
+      "split": "dev",
+      "strategy": "Strategy_C_Filtered",
+      "question": "Chương trình tích hợp cử nhân - kỹ sư có thời gian thiết kế là bao nhiêu năm?",
+      "gold_source": "QCDT_2023",
+      "gold_page": 5,
+      "has_filter": false,
+      "filter_used": null,
+      "filter_compliant": null,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "top3": [
+        {
+          "rank": 1,
+          "chunk_id": "B_QCDT_2023_p5_5",
+          "document_id": "QCDT_2023",
+          "page": 5,
+          "is_hit": true,
+          "score": 0.7584,
+          "text_snippet": "2 3. CTĐT tích hợp là chương trình được thiết kế tổng thể theo hướng tích hợp kiến thức của hai bậc trình độ , đảm bảo h"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "B_QCDT_2025_p6_96",
+          "document_id": "QCDT_2025",
+          "page": 6,
+          "is_hit": false,
+          "score": 0.744,
+          "text_snippet": "2 ưu hóa thời gian đào tạo cho người học. CTĐT tích hợp cử nhân-kỹ sư, cử nhân-thạc sĩ có thời gian thiết kế là 5,5 năm "
+        },
+        {
+          "rank": 3,
+          "chunk_id": "B_QCDT_2023_p5_6",
+          "document_id": "QCDT_2023",
+          "page": 5,
+          "is_hit": false,
+          "score": 0.717,
+          "text_snippet": "hương pháp và ngôn ngữ dạy và học. Chương trình ELITECH có mức độ quốc tế hóa cao với ngôn ngữ dạy và học chủ yếu bằng t"
+        }
+      ]
+    },
+    {
+      "question_id": "DEV_13",
+      "split": "dev",
+      "strategy": "Strategy_C_Filtered",
+      "question": "Theo Quy chế đào tạo ban hành năm 2025, quy định tại Điều 3 về thời gian và kế hoạch học tập nằm ở trang nào?",
+      "gold_source": "QCDT_2025",
+      "gold_page": 7,
+      "has_filter": true,
+      "filter_used": {
+        "year": 2025
+      },
+      "filter_compliant": true,
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "top3": [
+        {
+          "rank": 1,
+          "chunk_id": "B_QCDT_2025_p24_146",
+          "document_id": "QCDT_2025",
+          "page": 24,
+          "is_hit": false,
+          "score": 0.7616,
+          "text_snippet": "20 3. Kết quả học tập có giá trị công nhận trong thời hạn 5 năm. Tổng số TC của các học phần được công nhận không vượt q"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "B_QCDT_2025_p5_92",
+          "document_id": "QCDT_2025",
+          "page": 5,
+          "is_hit": false,
+          "score": 0.7517,
+          "text_snippet": "BỘ GIÁO DỤC VÀ ĐÀO TẠO ĐẠI HỌC BÁCH KHOA HÀ NỘI CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc QUY CHẾ Đ"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "B_QCDT_2025_p34_178",
+          "document_id": "QCDT_2025",
+          "page": 34,
+          "is_hit": false,
+          "score": 0.7386,
+          "text_snippet": "Điều 48. Hiệu lực thi hành 1. Quy chế này có hiệu lực thi hành từ học kỳ 1 năm học 2025-2026 và thay thế Quy chế đào tạo"
+        }
+      ]
+    },
+    {
+      "question_id": "DEV_14",
+      "split": "dev",
+      "strategy": "Strategy_C_Filtered",
+      "question": "Trong văn bản năm 2023, quy định về học cùng lúc hai chương trình tại Điều 18 nằm ở trang nào?",
+      "gold_source": "QCDT_2023",
+      "gold_page": 16,
+      "has_filter": true,
+      "filter_used": {
+        "year": 2023
+      },
+      "filter_compliant": true,
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "top3": [
+        {
+          "rank": 1,
+          "chunk_id": "B_QCDT_2023_p4_4",
+          "document_id": "QCDT_2023",
+          "page": 4,
+          "is_hit": false,
+          "score": 0.7422,
+          "text_snippet": "Điều 2. Ngành đào tạo, chương trình đào tạo 1. (tiếp): số 23/2021/TT -BGDĐT ngày 30 tháng 8 năm 2021 của Bộ trưởng Bộ Gi"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "B_QCDT_2023_p32_91",
+          "document_id": "QCDT_2023",
+          "page": 32,
+          "is_hit": false,
+          "score": 0.7276,
+          "text_snippet": "29 b) Khoản 2 Điều 18 (về việc học cùng lúc hai chương trì nh) được áp dụng với các khóa tuyển sinh từ năm 2022. c) Nhữn"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "B_QCDT_2023_p31_90",
+          "document_id": "QCDT_2023",
+          "page": 31,
+          "is_hit": false,
+          "score": 0.7187,
+          "text_snippet": "Điều 47. Hiệu lực thi hành 1. Quy chế này được áp dụng từ năm học 2023-2024 cho tất cả các khóa đào tạo, trừ một số điều"
+        }
+      ]
+    },
+    {
+      "question_id": "DEV_15",
+      "split": "dev",
+      "strategy": "Strategy_C_Filtered",
+      "question": "Theo văn bản Quy chế năm 2025, quy định tại Điều 23 về đăng ký tốt nghiệp kỹ sư nằm ở trang nào?",
+      "gold_source": "QCDT_2025",
+      "gold_page": 20,
+      "has_filter": true,
+      "filter_used": {
+        "year": 2025
+      },
+      "filter_compliant": true,
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "top3": [
+        {
+          "rank": 1,
+          "chunk_id": "B_QCDT_2025_p25_150",
+          "document_id": "QCDT_2025",
+          "page": 25,
+          "is_hit": false,
+          "score": 0.7153,
+          "text_snippet": "21 hoàn toàn bằng ngôn ngữ nước ngoài. Yêu cầu ngoại ngữ đầu vào và ngoại ngữ đầu ra phải cùng một ngôn ngữ. 3. Người hư"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "B_QCDT_2025_p34_177",
+          "document_id": "QCDT_2025",
+          "page": 34,
+          "is_hit": false,
+          "score": 0.7069,
+          "text_snippet": "Điều 47. Quy định chuyển tiếp 1. Đối với các khoá tuyển sinh có quyết định công nhận NCS sau ngày 01 tháng 8 năm 2025, Đ"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "B_QCDT_2025_p34_178",
+          "document_id": "QCDT_2025",
+          "page": 34,
+          "is_hit": false,
+          "score": 0.7008,
+          "text_snippet": "Điều 48. Hiệu lực thi hành 1. Quy chế này có hiệu lực thi hành từ học kỳ 1 năm học 2025-2026 và thay thế Quy chế đào tạo"
+        }
+      ]
+    },
+    {
+      "question_id": "TEST_01",
+      "split": "test",
+      "strategy": "Strategy_C_Filtered",
+      "question": "Sinh viên đang bị cảnh báo học tập mức 1 và mức 2 được hạ một mức cảnh báo khi nào?",
+      "gold_source": "QCDT_2023",
+      "gold_page": 17,
+      "has_filter": false,
+      "filter_used": null,
+      "filter_compliant": null,
+      "hit_at_1": false,
+      "hit_at_3": true,
+      "top3": [
+        {
+          "rank": 1,
+          "chunk_id": "B_QCDT_2025_p18_131",
+          "document_id": "QCDT_2025",
+          "page": 18,
+          "is_hit": false,
+          "score": 0.7715,
+          "text_snippet": "Điều 19. Cảnh báo học tập và buộc thôi học 1. Kết quả học tập được đánh giá vào cuối mỗi học kỳ chính để xác định mức độ"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "B_QCDT_2023_p17_40",
+          "document_id": "QCDT_2023",
+          "page": 17,
+          "is_hit": true,
+          "score": 0.765,
+          "text_snippet": "Điều 19. Cảnh báo học tập và buộc thôi học 1. Kết quả học tập được đánh giá vào cuối mỗi học kỳ chính để xác định mức độ"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "B_QCDT_2025_p19_132",
+          "document_id": "QCDT_2025",
+          "page": 19,
+          "is_hit": false,
+          "score": 0.7404,
+          "text_snippet": "15 tập này không phụ thuộc vào điều kiện nâng mức cảnh báo học tập tại mục a và mục b khoản này. e) Không xét cảnh báo h"
+        }
+      ]
+    },
+    {
+      "question_id": "TEST_02",
+      "split": "test",
+      "strategy": "Strategy_C_Filtered",
+      "question": "Sinh viên bị cảnh báo học tập mức 3 được hạ xuống mức 2 trong trường hợp nào?",
+      "gold_source": "QCDT_2023",
+      "gold_page": 17,
+      "has_filter": false,
+      "filter_used": null,
+      "filter_compliant": null,
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "top3": [
+        {
+          "rank": 1,
+          "chunk_id": "B_QCDT_2023_p17_41",
+          "document_id": "QCDT_2023",
+          "page": 17,
+          "is_hit": false,
+          "score": 0.7688,
+          "text_snippet": "Điều 19. Cảnh báo học tập và buộc thôi học 1. (tiếp): i ngữ đăng ký số TC học phần ít hơ n bình thường, cụ thể như sau: "
+        },
+        {
+          "rank": 2,
+          "chunk_id": "B_QCDT_2025_p23_145",
+          "document_id": "QCDT_2025",
+          "page": 23,
+          "is_hit": false,
+          "score": 0.7546,
+          "text_snippet": "Điều 28. Học bổ sung, công nhận tín chỉ 1. (tiếp): ên học chương trình tích hợp cử nhân-thạc sĩ của ĐHBK Hà Nội được đăn"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "B_QCDT_2025_p18_131",
+          "document_id": "QCDT_2025",
+          "page": 18,
+          "is_hit": false,
+          "score": 0.7356,
+          "text_snippet": "Điều 19. Cảnh báo học tập và buộc thôi học 1. Kết quả học tập được đánh giá vào cuối mỗi học kỳ chính để xác định mức độ"
+        }
+      ]
+    },
+    {
+      "question_id": "TEST_03",
+      "split": "test",
+      "strategy": "Strategy_C_Filtered",
+      "question": "Tại thời điểm đăng ký học chương trình thứ hai, sinh viên phải có điểm trung bình tích lũy CPA xếp loại gì?",
+      "gold_source": "QCDT_2023",
+      "gold_page": 16,
+      "has_filter": false,
+      "filter_used": null,
+      "filter_compliant": null,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "top3": [
+        {
+          "rank": 1,
+          "chunk_id": "B_QCDT_2023_p16_37",
+          "document_id": "QCDT_2023",
+          "page": 16,
+          "is_hit": true,
+          "score": 0.822,
+          "text_snippet": "Điều 18. Học cùng lúc hai chương trình 1. Sinh viên thuộc hình thức đào t ạo chính quy có thể đăng ký học thêm các học p"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "B_QCDT_2025_p18_129",
+          "document_id": "QCDT_2025",
+          "page": 18,
+          "is_hit": false,
+          "score": 0.8187,
+          "text_snippet": "Điều 18. Học cùng lúc hai chương trình 1. Sinh viên thuộc hình thức đào tạo chính quy có thể đăng ký học thêm các học ph"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "B_QCDT_2025_p17_126",
+          "document_id": "QCDT_2025",
+          "page": 17,
+          "is_hit": false,
+          "score": 0.7853,
+          "text_snippet": "13 5. Tự nguyện thôi học: Sinh viên thấy không có đủ điều kiện hoặc không muốn tiếp tục học tại ĐHBK Hà Nội có thể làm đ"
+        }
+      ]
+    },
+    {
+      "question_id": "TEST_04",
+      "split": "test",
+      "strategy": "Strategy_C_Filtered",
+      "question": "Đối với học phần đồ án hoặc khóa luận tốt nghiệp, điểm số dưới bao nhiêu thì bị coi là điểm liệt?",
+      "gold_source": "QCDT_2023",
+      "gold_page": 8,
+      "has_filter": false,
+      "filter_used": null,
+      "filter_compliant": null,
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "top3": [
+        {
+          "rank": 1,
+          "chunk_id": "B_QCDT_2023_p8_14",
+          "document_id": "QCDT_2023",
+          "page": 8,
+          "is_hit": false,
+          "score": 0.7658,
+          "text_snippet": "Điều 6. Hoãn thi, miễn thi, phúc tra và khiếu nại điểm 1. Đối với hình thức đào tạo chính quy, n gười học được thi cuối "
+        },
+        {
+          "rank": 2,
+          "chunk_id": "B_QCDT_2025_p9_106",
+          "document_id": "QCDT_2025",
+          "page": 9,
+          "is_hit": false,
+          "score": 0.7487,
+          "text_snippet": "Điều 5. Điểm học phần 1. (tiếp): thức đánh giá trực tuyến được áp dụng khi đảm bảo trung thực, công bằng và khách quan n"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "B_QCDT_2025_p13_116",
+          "document_id": "QCDT_2025",
+          "page": 13,
+          "is_hit": false,
+          "score": 0.7453,
+          "text_snippet": "Điều 11. Công nhận kết quả học tập và chuyển đổi tín chỉ 1. (tiếp): án tốt nghiệp/khóa luận tốt nghiệp được phép thực hi"
+        }
+      ]
+    },
+    {
+      "question_id": "TEST_05",
+      "split": "test",
+      "strategy": "Strategy_C_Filtered",
+      "question": "Theo Quy chế đào tạo ban hành năm 2025, quy định xử lý vi phạm đối với sinh viên được ghi nhận tại Điều 20 ở trang nào?",
+      "gold_source": "QCDT_2025",
+      "gold_page": 19,
+      "has_filter": true,
+      "filter_used": {
+        "year": 2025
+      },
+      "filter_compliant": true,
+      "hit_at_1": false,
+      "hit_at_3": true,
+      "top3": [
+        {
+          "rank": 1,
+          "chunk_id": "B_QCDT_2025_p34_178",
+          "document_id": "QCDT_2025",
+          "page": 34,
+          "is_hit": false,
+          "score": 0.77,
+          "text_snippet": "Điều 48. Hiệu lực thi hành 1. Quy chế này có hiệu lực thi hành từ học kỳ 1 năm học 2025-2026 và thay thế Quy chế đào tạo"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "B_QCDT_2025_p19_133",
+          "document_id": "QCDT_2025",
+          "page": 19,
+          "is_hit": true,
+          "score": 0.7683,
+          "text_snippet": "Điều 20. Xử lý vi phạm đối với sinh viên Các hành vi vi phạm và mức kỷ luật thực hiện theo quy định tại Quy chế công tác"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "B_QCDT_2025_p5_92",
+          "document_id": "QCDT_2025",
+          "page": 5,
+          "is_hit": false,
+          "score": 0.7564,
+          "text_snippet": "BỘ GIÁO DỤC VÀ ĐÀO TẠO ĐẠI HỌC BÁCH KHOA HÀ NỘI CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc QUY CHẾ Đ"
+        }
+      ]
+    }
+  ]
+}
